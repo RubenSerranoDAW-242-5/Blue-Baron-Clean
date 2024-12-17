@@ -1,0 +1,30 @@
+:root {
+    --color-primario: #1F509A;
+    --color-secundario: #B1F0F7;
+    --color-terciario: #FADA7A;
+    --color-letras: #F8FAFC;
+    --color-letras2: #2A3335;
+}
+
+body {
+    font-family: "Cera Pro", sans-serif;
+}
+
+/* Ejemplo de uso de colores
+body {
+    background-color: var(--color-primario);
+    color: var(--color-letras);
+}
+
+.navbar {
+    background-color: var(--color-secundario);
+}
+
+.btn-primary {
+    background-color: var(--color-terciario);
+    border-color: var(--color-terciario);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: var(--color-letras2);
+} */
