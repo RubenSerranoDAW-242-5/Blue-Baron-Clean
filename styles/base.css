@@ -10,21 +10,44 @@ body {
     font-family: "Cera Pro", sans-serif;
 }
 
-/* Ejemplo de uso de colores
-body {
-    background-color: var(--color-primario);
-    color: var(--color-letras);
+.bg-primary {
+    background-color: var(--color-primario) !important;
 }
 
-.navbar {
-    background-color: var(--color-secundario);
+.bg-secondary {
+    background-color: var(--color-secundario) !important;
+}
+
+.text-primary {
+    color: var(--color-primario) !important;
+}
+
+.text-secondary {
+    color: var(--color-secundario) !important;
 }
 
 .btn-primary {
-    background-color: var(--color-terciario);
-    border-color: var(--color-terciario);
+    background-color: var(--color-primario) !important;
+    border-color: var(--color-primario) !important;
 }
 
-h1, h2, h3, h4, h5, h6 {
-    color: var(--color-letras2);
-} */
+.btn-secondary {
+    background-color: var(--color-secundario) !important;
+    border-color: var(--color-secundario) !important;
+}
+
+.text-warning {
+    color: var(--color-terciario) !important;
+}
+
+.bg-warning {
+    background-color: var(--color-terciario) !important;
+}
+
+.text-light {
+    color: var(--color-letras) !important;
+}
+
+.text-dark {
+    color: var(--color-letras2) !important;
+}
