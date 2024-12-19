@@ -13,5 +13,13 @@ fetch('header.html')
 
 
 /*fetch('footer.html')
-    .then(response => response.text())
-    .then(data => document.getElementById('footer').innerHTML = data);*/
+
+    const tempDiv = document.createElement('div');
+        tempDiv.innerHTML = data;
+
+        // Extraer solo el contenido con el id "header"
+        const headerFragment = tempDiv.querySelector('#header');
+        document.getElementById('header').innerHTML = headerFragment ? headerFragment.outerHTML : '';
+    
+    
+*/
