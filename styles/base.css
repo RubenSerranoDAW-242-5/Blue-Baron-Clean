@@ -53,21 +53,12 @@ body {
 }
 
 /* CSS DE LAS TARJETAS */
-.card {
-    background-color: rgba(0, 0, 0, 50%); /* Fondo semitransparente */
-    border: none; /* Sin bordes */
-}
-
 .card-img-top {
-    height: 300px; /* Altura fija para las imágenes */
+    height: 300px; /* Altura fija */
     object-fit: cover; /* Mantener proporción */
+    border-radius: 0; /* Bordes redondeados */
 }
 
-.btn-info {
-    background-color: #17a2b8; /* Color del botón principal */
-    border: none;
-}
-
-.btn-info:hover {
-    background-color: #138496; /* Color del botón principal al pasar el ratón */
+.card{
+    border-radius: 0;
 }
