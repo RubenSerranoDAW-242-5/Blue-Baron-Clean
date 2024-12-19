@@ -51,3 +51,14 @@ body {
 .text-dark {
     color: var(--color-letras2) !important;
 }
+
+/* CSS DE LAS TARJETAS */
+.card-img-top {
+    height: 300px; /* Altura fija */
+    object-fit: cover; /* Mantener proporción */
+    border-radius: 0; /* Bordes redondeados */
+}
+
+.card{
+    border-radius: 0;
+}
