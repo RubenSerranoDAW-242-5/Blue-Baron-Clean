@@ -51,3 +51,23 @@ body {
 .text-dark {
     color: var(--color-letras2) !important;
 }
+
+/* CSS DE LAS TARJETAS */
+.card {
+    background-color: rgba(0, 0, 0, 50%); /* Fondo semitransparente */
+    border: none; /* Sin bordes */
+}
+
+.card-img-top {
+    height: 300px; /* Altura fija para las imágenes */
+    object-fit: cover; /* Mantener proporción */
+}
+
+.btn-info {
+    background-color: #17a2b8; /* Color del botón principal */
+    border: none;
+}
+
+.btn-info:hover {
+    background-color: #138496; /* Color del botón principal al pasar el ratón */
+}
