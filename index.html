@@ -28,66 +28,73 @@
     <section>
         <div class=" bg-primary text-center">
             <h3 class="text-light m-0">¿Cómo colaborar?</h3>
-            <img src="uploads/flechas.png" alt="flechas">
+            <img id="flechas" src="uploads/flechas.png" alt="flechas">
         </div>
         <div class="row">
             <!-- Tarjeta 1 -->
             <div class="col-md-6 pe-0">
                 <div class="card bg-dark text-light border-0">
-                    <img src="uploads/plasticos1.png" class="card-img-top" alt="Limpieza del mar">
-                    <div class="card-body text-center">
-                        <h5 class="card-title">Financia la limpieza de plástico del mar y puertos del Mediterráneo</h5>
-                        <a href="#" class="btn btn-primary">Más información</a>
+                    <img src="uploads/reciclaje.jpg" class="card-img opacity-75" alt="Limpieza del mar">
+                    <div class="card-img-overlay text-center d-flex flex-column justify-content-end">
+                        <h5 class="card-title contorno">Financia la limpieza de plástico del mar y puertos del Mediterráneo</h5>
+                        <a href="#" class="btn btn-primary align-self-center">Más información</a>
                     </div>
                 </div>
             </div>
             <!-- Tarjeta 2 -->
             <div class="col-md-6 ps-0">
                 <div class="card bg-dark text-light border-0">
-                    <img src="uploads/plasticos1.png" class="card-img-top" alt="Materiales reciclados">
-                    <div class="card-body text-center">
-                        <h5 class="card-title">Utiliza materiales reciclados para tus proyectos</h5>
-                        <a href="#" class="btn btn-primary">Paneles reciclados</a>
-                        <a href="#" class="btn btn-secondary">Pellets reciclados</a>
+                    <img src="uploads/celofan.jpg" class="card-img opacity-75" alt="Materiales reciclados">
+                    <div class="card-img-overlay text-center d-flex flex-column justify-content-end">
+                        <h5 class="card-title contorno">Utiliza materiales reciclados para tus proyectos</h5>
+                        <div>
+                            <a href="#" class="btn btn-primary me-2">Paneles reciclados</a>
+                            <a href="#" class="btn btn-primary">Pellets reciclados</a>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Cards Section -->
-    <section class="cards-section">
-        <div class="">
-            <div class="row">
-                <div class="col-md-4">
-                    <div class="card custom-card text-white bg-dark">
-                        <img src="" class="card-img-top" alt="Project 1">
-                        <div class="card-body">
-                            <h5 class="card-title">Investigación</h5>
-                            <p class="card-text">Investigamos soluciones al problema plástico.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card custom-card text-white bg-dark">
-                        <img src="" class="card-img-top" alt="Project 2">
-                        <div class="card-body">
-                            <h5 class="card-title">Plan de acción</h5>
-                            <p class="card-text">Actuamos con planes efectivos para la recolección.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card custom-card text-white bg-dark">
-                        <img src="image3.jpg" class="card-img-top" alt="Project 3">
-                        <div class="card-body">
-                            <h5 class="card-title">Alianzas</h5>
-                            <p class="card-text">Creación de alianzas para un futuro sostenible.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
+    <!-- Carrousel -->
+    <section id="carrusel" class="carousel slide carousel-height">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carrusel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carrusel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carrusel" data-bs-slide-to="2" aria-label="Slide 3"></button>
         </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="uploads/cubos.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-md-block text-light contorno">
+              <h5>¿Dónde actuamos?</h5>
+              <p>Actualmente, tenemos operaciones de recolecta en 4 países (Grecia, Italia, Egipto y España),</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="uploads/mar.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-md-block text-light contorno">
+              <h5>Forma parte del movimiento</h5>
+              <p> Ya somos más de 7.000 pescadores tradicionales.  </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="uploads/redes.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-md-block text-light contorno">
+              <h5>Nuestro plan para limpiar plástico del Mediterráneo</h5>
+              <p>Se estima que hay  1.178.000 de toneladas de plástico en el mar Mediterráneo. </p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carrusel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carrusel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
     </section>
 
     <!-- Bootstrap JS -->

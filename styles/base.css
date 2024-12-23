@@ -53,12 +53,33 @@ body {
 }
 
 /* CSS DE LAS TARJETAS */
-.card-img-top {
-    height: 300px; /* Altura fija */
+.card-img {
     object-fit: cover; /* Mantener proporción */
     border-radius: 0; /* Bordes redondeados */
 }
 
 .card{
     border-radius: 0;
+}
+/* CSS DEL CARRUSEL */
+.carousel-height {
+    height: 75vh;
+}
+.carousel-height img {
+    height: 75vh;
+    object-fit: cover;
+}
+/* Poner contorno a las letras */
+.contorno {
+    text-shadow:
+    1px 0 0 var(--color-letras2),    /* Desplaza a la derecha */
+    -1px 0 0 var(--color-letras2),   /* Desplaza a la izquierda */
+    0 1px 0 var(--color-letras2),    /* Desplaza abajo */
+    0 -1px 0 var(--color-letras2);   /* Desplaza arriba */
+}
+
+@media (max-width: 767px) {
+    #flechas {
+        display: none;
+    }
 }
