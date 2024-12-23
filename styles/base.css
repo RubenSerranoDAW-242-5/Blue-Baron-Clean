@@ -1,5 +1,5 @@
 :root {
-    --color-primario: #1F509A;
+    --color-primario: #1a427e;
     --color-secundario: #B1F0F7;
     --color-terciario: #FADA7A;
     --color-letras: #F8FAFC;
@@ -54,7 +54,6 @@ body {
 
 /* CSS DE LAS TARJETAS */
 .card-img {
-    object-fit: cover; /* Mantener proporción */
     border-radius: 0; /* Bordes redondeados */
 }
 
@@ -67,9 +66,8 @@ body {
 }
 .carousel-height img {
     height: 75vh;
-    object-fit: cover;
 }
-/* Poner contorno a las letras */
+/* CONTORNO A LAS LETRAS */
 .contorno {
     text-shadow:
     1px 0 0 var(--color-letras2),    /* Desplaza a la derecha */
@@ -78,6 +76,12 @@ body {
     0 -1px 0 var(--color-letras2);   /* Desplaza arriba */
 }
 
+/* CAMBIAR EL COLOR DE LA BARRA DE CARGA */
+.progress-bar-custom {
+    background-color: #B1F0F7; /* Color claro para la barra */
+    color: #000; /* Cambiar el color del texto a negro */
+  }
+/* Desaparecer flechas */
 @media (max-width: 767px) {
     #flechas {
         display: none;
