@@ -44,6 +44,7 @@ body {
 .btn-secondary:hover {
     background-color: darken(var(--color-secundario), 10%) !important;
     border-color: darken(var(--color-secundario), 10%) !important;
+    color: var(--color-secundario) !important;
 }
 
 .text-warning {
