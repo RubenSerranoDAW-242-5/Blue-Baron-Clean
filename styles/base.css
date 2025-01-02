@@ -64,11 +64,28 @@ body {
 
 /* CSS DE LAS TARJETAS */
 .card-img-top {
-    height: 300px; /* Altura fija */
-    object-fit: cover; /* Mantener proporción */
-    border-radius: 0; /* Bordes redondeados */
+    height: 300px;
+    /* Altura fija */
+    object-fit: cover;
+    /* Mantener proporción */
+    border-radius: 0;
+    /* Bordes redondeados */
 }
 
 .card {
     border-radius: 0;
+}
+
+/* para que la navbar se vuelva transparente */
+
+.navbar {
+    transition: background-color 0.3s ease;
+}
+
+.navbar.transparent {
+    background-color: transparent;
+}
+
+.navbar.scrolled {
+    background-color: var(--color-primario);
 }
