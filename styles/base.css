@@ -31,9 +31,19 @@ body {
     border-color: var(--color-primario) !important;
 }
 
+.btn-primary:hover {
+    background-color: darken(var(--color-primario), 10%) !important;
+    border-color: darken(var(--color-primario), 10%) !important;
+}
+
 .btn-secondary {
     background-color: var(--color-secundario) !important;
     border-color: var(--color-secundario) !important;
+}
+
+.btn-secondary:hover {
+    background-color: darken(var(--color-secundario), 10%) !important;
+    border-color: darken(var(--color-secundario), 10%) !important;
 }
 
 .text-warning {
@@ -53,37 +63,12 @@ body {
 }
 
 /* CSS DE LAS TARJETAS */
-.card-img {
+.card-img-top {
+    height: 300px; /* Altura fija */
+    object-fit: cover; /* Mantener proporción */
     border-radius: 0; /* Bordes redondeados */
 }
 
-.card{
+.card {
     border-radius: 0;
-}
-/* CSS DEL CARRUSEL */
-.carousel-height {
-    height: 75vh;
-}
-.carousel-height img {
-    height: 75vh;
-}
-/* CONTORNO A LAS LETRAS */
-.contorno {
-    text-shadow:
-    1px 0 0 var(--color-letras2),    /* Desplaza a la derecha */
-    -1px 0 0 var(--color-letras2),   /* Desplaza a la izquierda */
-    0 1px 0 var(--color-letras2),    /* Desplaza abajo */
-    0 -1px 0 var(--color-letras2);   /* Desplaza arriba */
-}
-
-/* CAMBIAR EL COLOR DE LA BARRA DE CARGA */
-.progress-bar-custom {
-    background-color: #B1F0F7; /* Color claro para la barra */
-    color: #000; /* Cambiar el color del texto a negro */
-  }
-/* Desaparecer flechas */
-@media (max-width: 767px) {
-    #flechas {
-        display: none;
-    }
 }
