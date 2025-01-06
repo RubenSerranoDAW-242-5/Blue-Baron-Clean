@@ -64,17 +64,46 @@ body .text-secondary {
 }
 
 /* CSS DE LAS TARJETAS */
-.card-img-top {
-    height: 300px;
-    /* Altura fija */
-    object-fit: cover;
-    /* Mantener proporción */
+.card-img {
+    border-radius: 0; /* Bordes redondeados */
+}
+
+.card{
     border-radius: 0;
-    /* Bordes redondeados */
 }
 
 .card {
     border-radius: 0;
+}
+/* CSS DEL CARRUSEL */
+.carousel-height {
+    height: 75vh;
+}
+.carousel-height img {
+    height: 75vh;
+}
+/* CONTORNO A LAS LETRAS */
+.contorno {
+    text-shadow:
+    1px 0 0 var(--color-letras2),    /* Desplaza a la derecha */
+    -1px 0 0 var(--color-letras2),   /* Desplaza a la izquierda */
+    0 1px 0 var(--color-letras2),    /* Desplaza abajo */
+    0 -1px 0 var(--color-letras2);   /* Desplaza arriba */
+}
+
+/* CAMBIAR EL COLOR DE LA BARRA DE CARGA */
+.progress-bar-custom {
+    background-color: #B1F0F7; /* Color claro para la barra */
+    color: #000; /* Cambiar el color del texto a negro */
+  }
+/* Desaparecer flechas */
+@media (max-width: 767px) {
+    #flechas {
+        display: none;
+    }
+    #colaborar{
+        padding-bottom: 30px;
+    }
 }
 
 /* para que la navbar se vuelva transparente */
