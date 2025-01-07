@@ -17,6 +17,10 @@ body .bg-secondary {
     background-color: var(--color-secundario) !important;
 }
 
+body .bg-terciary {
+    background-color: var(--color-terciario) !important;
+}
+
 body .text-primary {
     color: var(--color-primario) !important;
 }
@@ -45,7 +49,11 @@ body .text-secondary {
     border-color: darken(var(--color-secundario), 10%) !important;
     color: var(--color-secundario) !important;
 }
-
+.btn-terciary:hover {
+    background-color: darken(var(--color-terciario), 10%) !important;
+    border-color: darken(var(--color-terciario), 10%) !important;
+    color: var(--color-terciario) !important;
+}
 .text-warning {
     color: var(--color-terciario) !important;
 }
