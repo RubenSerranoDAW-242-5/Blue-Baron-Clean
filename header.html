@@ -15,9 +15,12 @@
     
     <!-- Contenedor del video -->
     <div class="position-absolute top-0 start-0 w-100 h-100 z-index-0">
-      <iframe id="myVideo" class="position-absolute top-0 start-0 w-100 h-100 border-0"
+      <!-- <iframe id="myVideo" class="position-absolute top-0 start-0 w-100 h-100 border-0 content-fit"
         src="https://www.youtube.com/embed/m-yytXnveM0?controls=0&rel=0&playsinline=1&enablejsapi=1&origin=https%3A%2F%2Fwww.thegravitywave.com&widgetid=1&autoplay=1&mute=1&loop=1&playlist=m-yytXnveM0"
-        frameborder="0" allow="autoplay; encrypted-media; fullscreen" allowfullscreen>
+        frameborder="0" allow="autoplay; encrypted-media; fullscreen" allowfullscreen> -->
+        <video class="w-100 h-100" autoplay muted loop>
+          <source src="../uploads/videoHeader.mp4" type="video/mp4">
+        </video>
       </iframe>
       
       <div class="position-absolute top-0 start-0 w-100 h-100 bg-dark opacity-50"></div>
