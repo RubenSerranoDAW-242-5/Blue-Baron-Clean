@@ -10,6 +10,12 @@ body {
     font-family: "Cera Pro", sans-serif;
 }
 
+.w-1348{
+    width: 1348px !important;
+}
+.h-420{
+    height: 420.11px !important;
+}
 body .bg-primary {
     background-color: var(--color-primario) !important;
 }
@@ -104,8 +110,11 @@ body .text-secondary {
     #colaborar{
         padding-bottom: 30px;
     }
+    #myVideo{
+        
+        height: 1000px;
+    }
 }
-
 /* para que la navbar se vuelva transparente */
 
 .navbar {
